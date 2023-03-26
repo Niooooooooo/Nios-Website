@@ -33,7 +33,7 @@ with st.container():
 
         st.subheader("Blockdash [discontinued]")
 
-        with open("tree/master/files/Blockdash.zip", "rb") as file:
+        with open("files/Blockdash.zip", "rb") as file:
             btn = st.download_button(
                     label="Download Blockdash",
                     data=file,
@@ -43,7 +43,7 @@ with st.container():
 
         st.subheader("TicTacToe for fx-CG50")
 
-        with open("tree/master/files/TicTacTo.py", "rb") as file:
+        with open("files/TicTacTo.py", "rb") as file:
             btn = st.download_button(
                   label="Download TicTacToe",
                   data=file,
