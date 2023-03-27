@@ -74,7 +74,7 @@ with st.container():
     with text_column:
         st.subheader("Best Discord Servers")
         st.write("Dandelion Downtown:")
-        st.markdown("   https://discord.gg/5eqaR6uA")
+        st.markdown("Hab den link mal entfernt lol") #   https://discord.gg/5eqaR6uA
         st.write("Butterbrot89:")
         st.markdown("   https://discord.gg/REdzRzTJ")
 

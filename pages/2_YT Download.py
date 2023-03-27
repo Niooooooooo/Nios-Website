@@ -43,7 +43,7 @@ with st.container():
             if st.button(use_container_width=True, label="Download"):
 
                 if link != "":    
-                    if option is "mp3":
+                    if option == "mp3":
                         
                         yt = YouTube(link)
                         audio_file = yt.streams.get_by_itag(140).download(PATH_SAVE)
@@ -51,7 +51,7 @@ with st.container():
                         new_file = base + ".mp3"
                         os.rename(audio_file, new_file)
                     
-                    if option is "mp4":
+                    if option == "mp4":
                         
                         yt = YouTube(link)
                         video_file = yt.streams.get_highest_resolution()
