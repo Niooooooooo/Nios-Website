@@ -53,11 +53,11 @@ with st.container():
             
         st.subheader("YT Download as Python file lol")
 
-        with open("files/YT Dload.py", "rb") as file:
+        with open("files/YT_Dload.py", "rb") as file:
             btn = st.download_button(
                   label="Download YT Dload",
                   data=file,
-                  file_name="YT Dload.py",
+                  file_name="YT_Dload.py",
                   use_container_width=True
                )
 
