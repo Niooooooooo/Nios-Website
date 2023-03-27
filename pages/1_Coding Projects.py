@@ -50,6 +50,16 @@ with st.container():
                   file_name="TicTacToe.py",
                   use_container_width=True
                )
+            
+        st.subheader("YT Download as Python file lol")
+
+        with open("files/YT Dload.py", "rb") as file:
+            btn = st.download_button(
+                  label="Download YT Dload",
+                  data=file,
+                  file_name="YT Dload.py",
+                  use_container_width=True
+               )
 
 
     

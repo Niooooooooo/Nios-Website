@@ -21,6 +21,7 @@ with st.sidebar:
 
 with st.container():
     st.title(title)
+    st.error("doesn't work")
 
 with st.container():
 

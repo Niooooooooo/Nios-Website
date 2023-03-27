@@ -23,6 +23,7 @@ with st.sidebar:
 
 with st.container():
     st.title(title)
+    st.error("only works on localhost")
 
 # ----YouTube Download----
 PATH_SAVE = "downloads"
